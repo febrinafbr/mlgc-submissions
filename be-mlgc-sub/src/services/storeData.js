@@ -1,8 +1,10 @@
 const { Firestore, Timestamp } = require("@google-cloud/firestore");
 
 async function storeData(id, data) {
-  const db = new Firestore();
-
+  const db = new Firestore({
+    projectId: process.env.PROJECT_ID,
+    databaseId: process.env.DATABASE_ID,
+  });
   const predictCollection = db.collection("predictions");
   const documentData = {
     id: id,

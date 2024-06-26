@@ -1,5 +1,5 @@
 {
-  "name": "serta-mulia",
+  "name": "mlgc-submission",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -11,10 +11,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@google-cloud/firestore": "^7.1.0",
-    "@hapi/hapi": "^21.3.2",
+    "@google-cloud/firestore": "^7.9.0",
+    "@hapi/hapi": "^21.3.10",
     "@tensorflow/tfjs-node": "^4.14.0",
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.4.5"
   },
   "devDependencies": {
     "nodemon": "^3.0.2"
